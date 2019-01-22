@@ -13,6 +13,15 @@ package studentlist;
 public class Student {
     private String name;
     private int ID;
+    private String DOB;
+
+    public String getDOB() {
+        return DOB;
+    }
+
+    public void setDOB(String DOB) {
+        this.DOB = DOB;
+    }
     
     public Student()
     {
